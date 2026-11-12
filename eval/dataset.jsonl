@@ -1,0 +1,18 @@
+{"prompt": "What is the capital of France?", "expectedTier": "cheap"}
+{"prompt": "What is 12 times 8?", "expectedTier": "cheap"}
+{"prompt": "Give me a synonym for the word happy.", "expectedTier": "cheap"}
+{"prompt": "What day of the week comes after Tuesday?", "expectedTier": "cheap"}
+{"prompt": "How do you spell the word necessary?", "expectedTier": "cheap"}
+{"prompt": "Convert 100 US dollars to euros at a rate of 0.92.", "expectedTier": "cheap"}
+{"prompt": "Write a friendly three-sentence out-of-office email saying I am back on Monday and to contact Sam for urgent issues.", "expectedTier": "balanced"}
+{"prompt": "Draft a short product description for a stainless steel insulated water bottle that keeps drinks cold for 24 hours.", "expectedTier": "balanced"}
+{"prompt": "Summarize the plot of Romeo and Juliet in one short paragraph for a high school student.", "expectedTier": "balanced"}
+{"prompt": "Write a polite follow-up email to send a week after a job interview to check on the hiring decision.", "expectedTier": "balanced"}
+{"prompt": "Write a concise LinkedIn bio for a backend software engineer with five years of experience in Go and distributed systems.", "expectedTier": "balanced"}
+{"prompt": "Write release notes for a mobile app update that fixes a login crash, improves dark mode contrast, and speeds up startup by 20 percent.", "expectedTier": "balanced"}
+{"prompt": "Explain why merge sort is a stable sorting algorithm but quicksort is not, and what stability means in this context.", "expectedTier": "frontier"}
+{"prompt": "Debug this: my Python recursive function hits maximum recursion depth at n=10000. Explain the root cause and give two different fixes.", "expectedTier": "frontier"}
+{"prompt": "Prove that the square root of 2 is irrational, and explain each step of the proof by contradiction.", "expectedTier": "frontier"}
+{"prompt": "Analyze the time and space complexity of Dijkstra's algorithm using a binary heap, and explain how it changes with a Fibonacci heap.", "expectedTier": "frontier"}
+{"prompt": "Why does my React useEffect run twice in development, and how do I avoid an infinite re-render loop when updating state inside it?", "expectedTier": "frontier"}
+{"prompt": "Derive the closed-form normal-equation solution for ordinary least squares linear regression and explain when it fails to apply.", "expectedTier": "frontier"}

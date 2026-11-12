@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+
+# wrangler / build
+.wrangler/
+dist/
+worker-configuration*.ts
+eval/report.md
+
+# local secrets (never commit provider keys)
+.dev.vars
+.dev.vars.*
+
+# logs
+*.log
+
+# macOS
+.DS_Store

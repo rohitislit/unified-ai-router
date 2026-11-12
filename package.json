@@ -1,0 +1,23 @@
+{
+  "name": "unified-ai-router",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "One prompt-aware HTTP endpoint that classifies a prompt into a tier and routes it to the cheapest qualifying model via the Workers AI binding + AI Gateway.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node --experimental-strip-types --test test/*.test.ts",
+    "typecheck": "wrangler types && tsc --noEmit",
+    "cf-typegen": "wrangler types",
+    "eval": "node eval/run.ts"
+  },
+  "dependencies": {
+    "hono": "^4.13.14"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "wrangler": "^4.155.0"
+  }
+}

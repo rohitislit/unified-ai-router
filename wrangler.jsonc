@@ -1,0 +1,26 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "unified-ai-router",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-05-15",
+
+  // Workers Logs / traces for the routing decisions and inference calls.
+  "observability": {
+    "enabled": true
+  },
+
+  // The Workers AI binding. env.AI.run(...) routes BOTH native ("@cf/...") and
+  // third-party ("author/model") models through AI Gateway when given a gateway id.
+  "ai": {
+    "binding": "AI"
+  },
+
+  "vars": {
+    // AI Gateway id used for caching / logging / observability. "default" is the
+    // gateway every account gets; change it to your own gateway slug.
+    "GATEWAY_ID": "default",
+    // Opt-in switch for external (non-Workers-AI) providers. Keep "false" so the
+    // router only uses native models and runs with just a Cloudflare account.
+    "ALLOW_EXTERNAL": "false"
+  }
+}
